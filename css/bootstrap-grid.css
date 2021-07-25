@@ -4,6 +4,9 @@
  * Copyright 2011-2020 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
+*{
+  box-sizing: border-box;
+}
 .container,
 .container-fluid,
 .container-sm,
@@ -12,10 +15,11 @@
 .container-xl,
 .container-xxl {
   width: 100%;
-  padding-right: 1rem;
-  padding-left: 1rem;
-  margin-right: auto;
-  margin-left: auto;
+  padding-right: 0;
+  padding-left: 0;
+  padding-right: 5%;
+  padding-left: 5%;
+  box-sizing: border-box;
 }
 
 @media (min-width: 576px) {
@@ -47,6 +51,9 @@
     max-width: 1320px;
   }
 }
+h1,h2,h3,h4,h5{
+  margin: 0%;
+}
 
 .row {
   --bs-gutter-x: 1.5rem;
@@ -64,10 +71,23 @@
   flex-shrink: 0;
   width: 100%;
   max-width: 100%;
-  padding-right: calc(var(--bs-gutter-x) / 2);
+  /* padding-right: calc(var(--bs-gutter-x) / 2);
   padding-left: calc(var(--bs-gutter-x) / 2);
-  margin-top: var(--bs-gutter-y);
+  margin-top: var(--bs-gutter-y); */
+  background-color: antiquewhite;
+  padding-left: 5%;
+  padding-right: 5%;
 }
+.rows{
+  display: flex;
+  background-color: antiquewhite;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  max-width: 100%;
+  margin-left : 10%;
+  margin-right: 10%;
+}
+
 
 .col {
   flex: 1 0 0%;
@@ -81,16 +101,24 @@
 .row-cols-1 > * {
   flex: 0 0 auto;
   width: 100%;
+  margin: 10px;
+  background-color: white;
 }
 
 .row-cols-2 > * {
   flex: 0 0 auto;
-  width: 50%;
+  width: 75%;
+  background-color: white;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  border-color: orange;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px   red;
 }
 
 .row-cols-3 > * {
   flex: 0 0 auto;
-  width: 33.333333%;
+  width: 50;
 }
 
 .row-cols-4 > * {
@@ -121,6 +149,7 @@
 .col-2 {
   flex: 0 0 auto;
   width: 16.666667%;
+  
 }
 
 .col-3 {
@@ -141,6 +170,7 @@
 .col-6 {
   flex: 0 0 auto;
   width: 50%;
+  display: relative;
 }
 
 .col-7 {
@@ -171,6 +201,9 @@
 .col-12 {
   flex: 0 0 auto;
   width: 100%;
+  margin: 50px;
+  background-color: white;
+  overflow: hidden;
 }
 
 .offset-1 {
