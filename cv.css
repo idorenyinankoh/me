@@ -1,10 +1,13 @@
 body{
-    background-color: #0A1931;
+    background-color: #1A1A2E;
     font-family: 'Ubuntu', sans-serif;
     text-align: left; 
     margin: 0; 
-    color: #464f41;
-    padding: 2rem 0rem 0 2rem;     
+    padding: 2rem 0rem 0 2rem;  
+    box-sizing: border-box;   
+}
+.row{
+    margin: auto;
 }
 
 hr{
@@ -23,7 +26,7 @@ h1{
 }
 h1, h2, h3 {
     font-family: 'Lobster Two', cursive;
-    color: #5b8a72;
+    color: #d0d0d0;
 }
 .centerimages{
     width: 10%;
