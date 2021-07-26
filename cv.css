@@ -1,0 +1,118 @@
+body{
+    background-color: #171717;
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;  
+    margin: 0; 
+    color: #464f41;     
+}
+hr{
+    border: dotted paleturquoise 5px;
+    border-bottom: none;
+    margin: 50px auto;
+    width: 4%;
+}
+img{
+    opacity: 10px;
+
+}
+h1{
+    font-size: 4em;
+    
+}
+h1, h2, h3 {
+    font-family: 'Lobster Two', cursive;
+    color: #5b8a72;
+}
+.centerimages{
+    width: 10%;
+    display: inline-block;
+    border-radius: 10%;    
+
+}
+.astro{
+    margin: 0 5px 0 auto;
+    display: inline-block;
+    background-color: blue;
+}
+.astronaut{
+    width: 10%;
+    opacity: 0.5;
+    margin: 0 5px 0 auto;
+    display: inline-block;
+    position: absolute;
+    animation-name: fly;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+  }
+  
+  @keyframes fly {
+    0%   {right:10%; top:5rem;}
+  
+    100% {right:10%; top:10rem;}
+  }
+
+
+.centre{
+    margin: 0 auto 0 auto;
+    width: 20%;
+    text-align: center;
+    position: relative;
+    display: block;
+}
+
+.backimg{opacity: 0.2;
+
+    background-image: url(https://media2.giphy.com/media/MDymB8AyHlIoc5CFHn/giphy.gif);
+}
+.skill-row{
+    width: 100;
+    margin: 0 auto;
+}
+.inline{
+    display: inline-block;
+    float: right;
+}
+
+.top-container{
+    display: block;
+}
+.contact-btn {
+    background: #D0E9DA;
+   background-image: -webkit-linear-gradient(top, #D0E9DA, #83B596);
+   background-image: -moz-linear-gradient(top, #D0E9DA, #83B596);
+   background-image: -ms-linear-gradient(top, #D0E9DA, #83B596);
+   background-image: -o-linear-gradient(top, #D0E9DA, #83B596);
+   background-image: -webkit-gradient(to bottom, #D0E9DA, #83B596);
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   color: #000000;
+   font-family: Brush Script MT;
+   font-size: 40px;
+   font-weight: 100;
+   padding: 15px;
+  
+
+   border: solid #C0D3CE 1px;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+ }
+ 
+ .contact-btn:hover {
+    border: solid #437E32 1px;
+    background: #2BE18C;
+    background-image: -webkit-linear-gradient(top, #2BE18C, #587E55);
+    background-image: -moz-linear-gradient(top, #2BE18C, #587E55);
+    background-image: -ms-linear-gradient(top, #2BE18C, #587E55);
+    background-image: -o-linear-gradient(top, #2BE18C, #587E55);
+    background-image: -webkit-gradient(to bottom, #2BE18C, #587E55);
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    text-decoration: none;
+ }
