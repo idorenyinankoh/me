@@ -34,24 +34,20 @@ a{
 background: linear-gradient(171deg, rgba(205,43,28,1) 24%, rgba(89,91,94,1) 56%, rgba(69,12,167,1) 91%);
     padding: 0.2rem;
     display: inline-block;
-    margin: 1rem;
-    
+    margin: 1rem;    
 }
 
-hr{
-    border: dotted paleturquoise 5px;
-    border-bottom: nPageCol;
-    margin: 50px auto;
-    width: 4%;
-}
+
 img{
     opacity: 10px;
 }
 
 h1{
-    font-size: 7rem;
+    font-size: 5rem;
     font-family: 'Lobster Two', cursive;
     color: #d0d0d0;
+    max-width: 100%;
+    display: relative;
 }
 h2 {
     position: relative;
