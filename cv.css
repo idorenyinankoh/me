@@ -3,32 +3,39 @@ body{
     font-family: 'Ubuntu', sans-serif;
     text-align: left; 
     margin: 0; 
-    padding: 2rem 0rem 0 2rem;  
+    padding: 2rem 2rem  2rem 2rem;  
     box-sizing: border-box;   
 }
 a{
     color: #d0d0d0;
     text-decoration-line: none;
+    margin-top: 10px;
 }
 .pageCol:hover {
-    background-color: aqua;
+    background-color: black;
 }
-.row{
-    margin: auto;
-}
-.pageCol{
-    padding: 0.5rem;
+
+
+.pageCol{   
+    color: #d0d0d0;
     background-color: #1A1A2E;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    
 }
 
-
-.connect{max-width: 250px;
+.connect{
+    
     position: relative;
     background: rgb(205,43,28);
 background: linear-gradient(171deg, rgba(205,43,28,1) 24%, rgba(89,91,94,1) 56%, rgba(69,12,167,1) 91%);
     padding: 0.2rem;
     display: inline-block;
-    margin: 0 2rem;
+    margin: 1rem;
+    
 }
 
 hr{
@@ -79,7 +86,11 @@ h3{
     color: #e9dcdc;
 }
 .center{
-   text-align: center;
+   align-items: center;
+   margin: 0 auto;
+   align-items: center;
+   display: flex;
+   justify-content: center;
 
 }
 .astro{
