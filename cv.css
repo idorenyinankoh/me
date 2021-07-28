@@ -9,7 +9,9 @@ body{
 a{
     color: #d0d0d0;
     text-decoration-line: none;
-    margin-top: 10px;
+}
+a:hover{
+    color: inherit;
 }
 .pageCol:hover {
     background-color: black;
