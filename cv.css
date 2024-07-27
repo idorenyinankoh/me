@@ -57,7 +57,7 @@ h2 {
     font-family: 'Lobster Two', cursive;
     color: #d0d0d0;
 }
-h2::before{
+/* h2::before{
     content: attr(data-text);
     position: absolute;
     top: 0;
@@ -72,7 +72,7 @@ h2::before{
     animation-timing-function: linear-gradient;
     animation-delay: 0s;
     animation-iteration-count: 1;
-}
+} */
 h2::after{
     display: none;
 }
@@ -162,3 +162,20 @@ h3{
     border-radius: 20px;
     text-decoration: nPageCol;
  }
+ .skillBox{
+     background-color: #212131;
+     height: 15rem;
+     margin: 1rem;
+     padding: 1rem;
+     box-shadow: 0px 0px 10px rgb(17, 17, 17);
+     border-radius: 1rem;
+ }
+ .skillBox:hover{
+     background-color: #6610f2;    
+ }
+ 
+ h6{
+    font-family: 'Ubuntu', sans-serif;
+    color: #d0d0d0;
+ }
+ 
